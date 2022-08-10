@@ -9,6 +9,12 @@
         <hr>
       </router-link>
 
+      <router-link to="/admin/panelpedidos">
+        <hr>
+        <button class="btn col-sm">Ver panel de pedidos</button>
+        <hr>
+      </router-link>
+
       <router-link to="/productos">
         <hr>
         <button class="btn col-sm">Vista de usuario</button>

@@ -27,6 +27,12 @@ const routes = [
         name:'panelproductos',
         component: () => import(/* webpackChunkName: "about" */ '../views/AdminProductsView.vue')
       },
+
+      {
+        path:'panelpedidos',
+        name:'panelpedidos',
+        component: () => import(/* webpackChunkName: "about" */ '../views/AdminPedidosView.vue')
+      }
     ]
 
   },
